@@ -5,7 +5,7 @@ const getProducts = (requires, response ) => {
     if(!item) {
         return response.status(500).send("Item not in list");
         }
-        response.status(200).send(item);
+        response.status(200).send(products);
 }
 
 
